@@ -1,0 +1,16 @@
+id: nara_views_per_day
+name: Image views for NARA images per day
+shortName : NARA daily image views
+format: csv
+type: timeseries
+url: /data/datafiles/glam/nara_views_per_day.csv
+
+
+columns:
+    -   id         : day
+        label      : Day
+        type       : date
+    
+    -   id         : views
+        label      : Fancy views
+        type       : int

@@ -28,7 +28,7 @@ root:
                         type: Number
                     options:
                         label : Image views
-                        scale : linear
+                        scale : log
                         fill  : ['#D4E7ED', '#0A3A4B']
                         stroke: 
                             - width: 1

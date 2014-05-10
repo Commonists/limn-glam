@@ -1,0 +1,13 @@
+{
+	"id": "reportcard",
+	"headline": "GLAM metrics",
+	"subhead": "Per month",
+	"tabs": [
+		{
+			"name": "NARA image views",
+			"graph_ids": [
+				"views"
+			]
+		}
+	]
+}

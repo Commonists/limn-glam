@@ -1,0 +1,16 @@
+id: nara_views_per_month
+name: Image views for NARA images per month
+shortName : NARA monthly image views
+format: csv
+type: timeseries
+url: /data/datafiles/glam/nara_views_per_month.csv
+
+
+columns:
+    -   id         : month
+        label      : Month
+        type       : date
+    
+    -   id         : views
+        label      : Fancy views
+        type       : int

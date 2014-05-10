@@ -1,0 +1,36 @@
+graph_version : 0.6.0
+
+id            : nara-map
+name          : NARA image views by Location, from February to May 2014
+desc          : Image views for the NARA image collection on Wikimedia Commons
+
+root:
+    nodeType : canvas
+    width    : auto
+    height   : 750
+    children :
+        
+        -   nodeType: geo-map
+            metric:
+                source_id: map-world_countries
+            options:
+                projection      : mercator
+                backgroundColor : white
+                featuresColor   : '#EEEEEE'
+            children:
+                -   nodeType: zoom-pan
+                -   nodeType: infobox
+                
+                -   nodeType: geo-feature
+                    metric:
+                        source_id: nara_views_per_country
+                        source_col: views
+                        type: Number
+                    options:
+                        label : Image views
+                        scale : linear
+                        fill  : ['#D4E7ED', '#0A3A4B']
+                        stroke: 
+                            - width: 1
+                            - color: '#FFFFFF'
+                    

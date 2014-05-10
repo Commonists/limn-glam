@@ -4,10 +4,16 @@
 	"subhead": "First Ever™ Image views data",
 	"tabs": [
 		{
-			"name": "NARA image views",
+			"name": "NARA image views by time",
 			"graph_ids": [
 				"views",
 				"daily-views"
+			]
+		},
+        {
+			"name": "NARA image views by location",
+			"graph_ids": [
+				"nara-map"
 			]
 		}
 	]

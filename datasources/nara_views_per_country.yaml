@@ -1,0 +1,21 @@
+{
+    "id": "nara_views_per_country",
+    "format": "csv",
+    "type": "series",
+    "url": "/data/datafiles/glam/nara_views_per_country.csv",
+    "name": "Per-country NARA image views",
+    "shortName": "Per-country NARA image views",
+    "columns": [
+        {
+            "id": "id",
+            "label": "ID",
+            "type": "TwoLetterCountryCode"
+        },
+        {
+            "id": "views",
+            "label": "Views",
+            "type": "float"
+        }
+    ]
+}
+
